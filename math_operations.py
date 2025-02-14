@@ -23,7 +23,7 @@ elif operation == "mul":
     result = num1 * num2
 elif operation == "div":
     if num2 == 0:
-        print("<h3>Error: Division by zero is not allowed.</h3>")
+        print("<h3>Error: Division by zero is not possible.</h3>")
         sys.exit(1)
     result = num1 / num2
 else:

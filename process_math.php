@@ -9,6 +9,6 @@ $command = escapeshellcmd("python3 math_operations.py $input1 $input2 $operation
 $output = shell_exec($command);
 
 // Display the output from the Python script
-echo "<h2>Calculation Result:</h2>";
+echo "<h2>Result:</h2>";
 echo "<div>$output</div>";
 ?>
